@@ -7,9 +7,7 @@ int main()
   
   float l,p,t,hasil;
   char rumus;
- 
-    
-    
+
     cout<< "PILILAH RUMUS UNTUK MENYELESAIKAN OPRASI INI"<<endl;
     
     cout<<"A.Rumus Luas Persegi Panjang"<<endl;
@@ -22,9 +20,6 @@ int main()
     
     cout<<"Masukan Rumus yg Ingin digunakan = "<<rumus;
     cin>>rumus;
-    
-    
-   
     
     switch(rumus)
  {
@@ -73,27 +68,8 @@ int main()
           cout << "2x("<<p<<"x"<<l<<"+"<<p<<"x"<<t<<"+"<<l<<"x"<<t<<")="<<hasil<<"cm^2"<<endl;
         break;
  }
-         
- 
-  
- 
-  
-  
-    
-    
+   
     cout <<"progam telah selesai dijalankan"<<endl;
     return 0;
-    
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
 }
